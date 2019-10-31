@@ -18,6 +18,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"></activity>
+        <provider
+            android:authorities="com.example.petrescue"
+            android:name=".data.PetProvider"
+            android:exported="false" />
     </application>
 
 </manifest>
